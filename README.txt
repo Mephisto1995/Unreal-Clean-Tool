@@ -12,11 +12,11 @@ For this script to work:
 
 Now you can use the tool.
 
-The tool was broken into 2 sub-tools: CR & NB.
+The tool was broken into 2 sub-tools: CR & Nuke.
 
 CR stands for "Clean and Regenerate", which is all that it does. It's usuable, but you have to open the .uproject to rebuild the project and plugins.
 
-NB stands for "Nuke and Build" which does the same thing as CR, but after regenerating, does a clean build with UBT to reset all the build artifacts and then builds the project and plugins with UBT. The problem is that it still requires to build the "missing" modules, even though I've seen that UBT built them.
+Nuke.py does the same thing as CR, but after regenerating, does a clean build with UBT to reset all the build artifacts and then builds the project and plugins with UBT. The problem is that it still requires to build the "missing" modules, even though I've seen that UBT built them.
 
 Will work on this feature in the future.
 
