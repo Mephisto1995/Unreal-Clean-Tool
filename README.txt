@@ -5,7 +5,7 @@ It won't regenerate the visual studio project files yet due to unkown issues. Mi
 For this script to work:
 1. Place the .py file in the root of your project;
 2. Open a terminal;
-3. Make sure you have pyinstaller installed (check google how to do that);
+3. If you don't have pyinstaller, install it: pip install pyinstaller
 4. Run pyinstaller --onefile <NameOfThePythonScript.py>;
 5. Delete the .spec file;
 6. Move the .exe file from your dist folder into the root folder.
